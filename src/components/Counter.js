@@ -1,12 +1,6 @@
-import React, { Component, PropTypes } from 'react'
+import React, { Component } from 'react'
 
 class Counter extends Component {
-  static propTypes = {
-    value: PropTypes.number.isRequired,
-    onIncrement: PropTypes.func.isRequired,
-    onDecrement: PropTypes.func.isRequired,
-    onClear: PropTypes.func.isRequired
-  }
 
   render() {
     const { value, onIncrement, onDecrement, onClear } = this.props
