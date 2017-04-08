@@ -4,6 +4,8 @@ export default (state = 0, action) => {
       return state + 1
     case 'DECREMENT':
       return state - 1
+    case 'CLEAR':
+      return 0
     default:
       return state
   }
